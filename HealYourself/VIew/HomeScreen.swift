@@ -13,8 +13,10 @@ struct HomeView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            Text("HELLOasdasdasd")
+            Text("Hosgeldin Dadlum Iceri Gir")
+            Button("Iceri") {
+                
+            }
         }
         .padding()
     }
