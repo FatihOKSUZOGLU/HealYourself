@@ -11,7 +11,7 @@
 		A75DCC3729C3AE0D00C0CBD4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DCC3629C3AE0D00C0CBD4 /* HomeScreen.swift */; };
 		A75DCC3929C3AE0E00C0CBD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75DCC3829C3AE0E00C0CBD4 /* Assets.xcassets */; };
 		A75DCC3C29C3AE0E00C0CBD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75DCC3B29C3AE0E00C0CBD4 /* Preview Assets.xcassets */; };
-		A75DCC4829C3B01900C0CBD4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DCC4729C3B01900C0CBD4 /* Login.swift */; };
+		A75DCC4829C3B01900C0CBD4 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DCC4729C3B01900C0CBD4 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		A75DCC3629C3AE0D00C0CBD4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		A75DCC3829C3AE0E00C0CBD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A75DCC3B29C3AE0E00C0CBD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A75DCC4729C3B01900C0CBD4 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		A75DCC4729C3B01900C0CBD4 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 		A75DCC4629C3AFF900C0CBD4 /* LoginRegister */ = {
 			isa = PBXGroup;
 			children = (
-				A75DCC4729C3B01900C0CBD4 /* Login.swift */,
+				A75DCC4729C3B01900C0CBD4 /* LoginScreen.swift */,
 			);
 			path = LoginRegister;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75DCC4829C3B01900C0CBD4 /* Login.swift in Sources */,
+				A75DCC4829C3B01900C0CBD4 /* LoginScreen.swift in Sources */,
 				A75DCC3729C3AE0D00C0CBD4 /* HomeScreen.swift in Sources */,
 				A75DCC3529C3AE0D00C0CBD4 /* HealYourselfApp.swift in Sources */,
 			);
