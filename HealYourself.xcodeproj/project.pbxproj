@@ -8,19 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		A75DCC3529C3AE0D00C0CBD4 /* HealYourselfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DCC3429C3AE0D00C0CBD4 /* HealYourselfApp.swift */; };
-		A75DCC3729C3AE0D00C0CBD4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DCC3629C3AE0D00C0CBD4 /* HomeScreen.swift */; };
+		A75DCC3729C3AE0D00C0CBD4 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DCC3629C3AE0D00C0CBD4 /* Start.swift */; };
 		A75DCC3929C3AE0E00C0CBD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75DCC3829C3AE0E00C0CBD4 /* Assets.xcassets */; };
 		A75DCC3C29C3AE0E00C0CBD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75DCC3B29C3AE0E00C0CBD4 /* Preview Assets.xcassets */; };
-		A75DCC4829C3B01900C0CBD4 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75DCC4729C3B01900C0CBD4 /* LoginScreen.swift */; };
+		A764E43D29C66526005721B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A764E43C29C66526005721B5 /* GoogleService-Info.plist */; };
+		A7D16A5329C7926C00D29D12 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D16A5229C7926C00D29D12 /* LoginView.swift */; };
+		A7D16A5629C792D700D29D12 /* ComponentUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D16A5529C792D700D29D12 /* ComponentUtil.swift */; };
+		A7D16A5829C793BD00D29D12 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D16A5729C793BD00D29D12 /* SignUpView.swift */; };
+		A7E89C1029C51A18009C0BBE /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E89C0F29C51A18009C0BBE /* HomePage.swift */; };
+		E7A1C2C747D8DF557A5D4343 /* Pods_HealYourself.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B50941397E656522553D4E /* Pods_HealYourself.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3F708BBA3032D228938B40 /* Pods-HealYourself.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealYourself.release.xcconfig"; path = "Target Support Files/Pods-HealYourself/Pods-HealYourself.release.xcconfig"; sourceTree = "<group>"; };
+		93B50941397E656522553D4E /* Pods_HealYourself.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealYourself.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75DCC3129C3AE0D00C0CBD4 /* HealYourself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealYourself.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75DCC3429C3AE0D00C0CBD4 /* HealYourselfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealYourselfApp.swift; sourceTree = "<group>"; };
-		A75DCC3629C3AE0D00C0CBD4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		A75DCC3629C3AE0D00C0CBD4 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
 		A75DCC3829C3AE0E00C0CBD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A75DCC3B29C3AE0E00C0CBD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A75DCC4729C3B01900C0CBD4 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		A764E43C29C66526005721B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7D16A5229C7926C00D29D12 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A7D16A5529C792D700D29D12 /* ComponentUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentUtil.swift; sourceTree = "<group>"; };
+		A7D16A5729C793BD00D29D12 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A7E89C0F29C51A18009C0BBE /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		F6CDFBB1D923CE522A2693C6 /* Pods-HealYourself.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealYourself.debug.xcconfig"; path = "Target Support Files/Pods-HealYourself/Pods-HealYourself.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A1C2C747D8DF557A5D4343 /* Pods_HealYourself.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DEDA2D808E4D9A333791C8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93B50941397E656522553D4E /* Pods_HealYourself.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A75DCC2829C3AE0D00C0CBD4 = {
 			isa = PBXGroup;
 			children = (
 				A75DCC3329C3AE0D00C0CBD4 /* HealYourself */,
 				A75DCC3229C3AE0D00C0CBD4 /* Products */,
+				B8EFAB0EA456FF4962BB8D9E /* Pods */,
+				3DEDA2D808E4D9A333791C8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +76,8 @@
 		A75DCC3329C3AE0D00C0CBD4 /* HealYourself */ = {
 			isa = PBXGroup;
 			children = (
+				A7D16A5429C792C800D29D12 /* Util */,
+				A764E43C29C66526005721B5 /* GoogleService-Info.plist */,
 				A75DCC4329C3AFCE00C0CBD4 /* Controller */,
 				A75DCC4229C3AE1900C0CBD4 /* VIew */,
 				A75DCC3429C3AE0D00C0CBD4 /* HealYourselfApp.swift */,
@@ -73,9 +98,10 @@
 		A75DCC4229C3AE1900C0CBD4 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				A7E89C0F29C51A18009C0BBE /* HomePage.swift */,
 				A75DCC4629C3AFF900C0CBD4 /* LoginRegister */,
 				A75DCC4429C3AFD900C0CBD4 /* User */,
-				A75DCC3629C3AE0D00C0CBD4 /* HomeScreen.swift */,
+				A75DCC3629C3AE0D00C0CBD4 /* Start.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -97,9 +123,27 @@
 		A75DCC4629C3AFF900C0CBD4 /* LoginRegister */ = {
 			isa = PBXGroup;
 			children = (
-				A75DCC4729C3B01900C0CBD4 /* LoginScreen.swift */,
+				A7D16A5229C7926C00D29D12 /* LoginView.swift */,
+				A7D16A5729C793BD00D29D12 /* SignUpView.swift */,
 			);
 			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		A7D16A5429C792C800D29D12 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A7D16A5529C792D700D29D12 /* ComponentUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B8EFAB0EA456FF4962BB8D9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6CDFBB1D923CE522A2693C6 /* Pods-HealYourself.debug.xcconfig */,
+				3F3F708BBA3032D228938B40 /* Pods-HealYourself.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A75DCC3F29C3AE0E00C0CBD4 /* Build configuration list for PBXNativeTarget "HealYourself" */;
 			buildPhases = (
+				535D4EDC6113A53910FFF6B5 /* [CP] Check Pods Manifest.lock */,
 				A75DCC2D29C3AE0D00C0CBD4 /* Sources */,
 				A75DCC2E29C3AE0D00C0CBD4 /* Frameworks */,
 				A75DCC2F29C3AE0D00C0CBD4 /* Resources */,
+				6D012DF43A493D2E09A61169 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,20 +207,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				A75DCC3C29C3AE0E00C0CBD4 /* Preview Assets.xcassets in Resources */,
+				A764E43D29C66526005721B5 /* GoogleService-Info.plist in Resources */,
 				A75DCC3929C3AE0E00C0CBD4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		535D4EDC6113A53910FFF6B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealYourself-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D012DF43A493D2E09A61169 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealYourself/Pods-HealYourself-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealYourself/Pods-HealYourself-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealYourself/Pods-HealYourself-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A75DCC2D29C3AE0D00C0CBD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75DCC4829C3B01900C0CBD4 /* LoginScreen.swift in Sources */,
-				A75DCC3729C3AE0D00C0CBD4 /* HomeScreen.swift in Sources */,
+				A75DCC3729C3AE0D00C0CBD4 /* Start.swift in Sources */,
+				A7D16A5829C793BD00D29D12 /* SignUpView.swift in Sources */,
 				A75DCC3529C3AE0D00C0CBD4 /* HealYourselfApp.swift in Sources */,
+				A7D16A5329C7926C00D29D12 /* LoginView.swift in Sources */,
+				A7D16A5629C792D700D29D12 /* ComponentUtil.swift in Sources */,
+				A7E89C1029C51A18009C0BBE /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +389,7 @@
 		};
 		A75DCC4029C3AE0E00C0CBD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CDFBB1D923CE522A2693C6 /* Pods-HealYourself.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +404,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +420,7 @@
 		};
 		A75DCC4129C3AE0E00C0CBD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3F708BBA3032D228938B40 /* Pods-HealYourself.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -340,6 +435,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

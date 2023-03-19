@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct StartView: View {
     @State private var currentPageIndex = 0
 
     var body: some View {
@@ -93,7 +93,7 @@ struct Page3View: View {
                 self.showSignView = true
             }
             .sheet(isPresented: $showSignView) {
-                SignView()
+                Home()
             }
         }
     }
@@ -101,6 +101,6 @@ struct Page3View: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        StartView()
     }
 }
