@@ -65,8 +65,7 @@ struct Home: View {
                     }
                 }.padding(.top, 30)
             }.padding(.vertical)
-        }.background(Color("Color").edgesIgnoringSafeArea(.all
-        ))
+        }
     }
 }
 
